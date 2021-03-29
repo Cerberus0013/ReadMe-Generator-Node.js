@@ -69,7 +69,7 @@ const readMeInfo = (readMeData) => {
       type: "checkbox",
       name: "license",
       message: "What type of License are you using (check all that apply)",
-      choices: ["MIT LIcense", "Apache License 2.0", "GNU GPLv3", "ISC"],
+      choices: ["MIT License", "Apache License 2.0", "GNU GPLv3", "ISC", 'none'],
     },
     {
       type: "input",
