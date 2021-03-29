@@ -6,7 +6,7 @@ return
     <img src="./assets/images/download.jpg"  alt="Logo" width="80" height="" >
   </a>
 
-  <h3 align="center">Quiz Time</h3>
+  <h3 align="center">${title}</h3>
 
   <p align="center">
   Timed Quiz Challenge
