@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Cerberus0013/ReadMe-Generator-Node.js/issues"
   },
-  "homepage": "https://github.com/Cerberus0013/ReadMe-Generator-Node.js#readme"
+  "homepage": "https://github.com/Cerberus0013/ReadMe-Generator-Node.js#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
 }
