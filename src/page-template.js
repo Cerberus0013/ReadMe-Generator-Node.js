@@ -1,4 +1,6 @@
-const readmeGenerator = (name, github) => {
+module.exports= reademeTemplate => {
+
+  console.log(reademeTemplate)
 return
 `<br />
 <p align="center">
