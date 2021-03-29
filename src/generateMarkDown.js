@@ -1,26 +1,26 @@
-module.exports= reademeTemplate => {
-
+module.exports= (reademeTemplate) => {
+ const{readMe} = reademeTemplate
   console.log(reademeTemplate)
-return
-`<br />
+return`
+<br />
 <p align="center">
-  <a href="https://github.com/${github}">Github</a><
+  <a href="https://github.com/${readmeData.github}">Github</a><
     <img src="./assets/images/download.jpg"  alt="Logo" width="80" height="" >
   </a>
 
-  <h3 align="center">${title}</h3>
+  <h3 align="center">${readmeData.github}</h3>
 
   <p align="center">
   
         <br />
-        <a href="https://github.com/${github}">Github</a><><strong>Explore the docs »</strong></a>
+        <a href="https://github.com/${readmeData.github}">Github</a><><strong>Explore the docs »</strong></a>
         <br />
         <br />
-       <a href="https://github.com/${github}">Github</a><View Demo</a>
+       <a href="https://github.com/${readMe.github}">Github</a><View Demo</a>
         ·
-       <a href="https://github.com/${github}">Github</a><Report Bug</a>
+       <a href="https://github.com/${readMe.github}">Github</a><Report Bug</a>
         ·
-       <a href="https://github.com/${github}">Github</a><Request Feature</a>
+       <a href="https://github.com/${readMe.github}">Github</a><Request Feature</a>
   </p>
 </p>
 
@@ -41,7 +41,9 @@ return
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href = ${screenshotURL}
+${readMe.description}
+
+<a href = ${readMe.screenShotURL}
 
 
 Features:
@@ -56,12 +58,12 @@ Repository Link: [https://github.com/Cerberus0013/timed-quiz](https://github.com
 <!-- Questions -->
 ## Contact
 
-Name: ${name} ; Email: ${email}
+Name: ${readMe.name} ; Email: ${ReadMe.email}
 
-href="https://github.com/${github}
+href="https://github.com/${ReadMe.github}
+
+<h4 class="text-dark">&copy; ${new Date().getFullYear()} by ${ReadMe.name}</h4>
 
 `;
 }
 
-
-module.exports = readmeGenerator

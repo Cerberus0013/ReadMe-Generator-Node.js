@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
-const readmeGenerator = require('./src/page-template.js')
+const readmeGenerator = require('./src/generateMarkDown.js')
 
 // const readMe = readmeGenerator()
 
@@ -45,7 +45,13 @@ const readMeInfo = (readMeData) => {
   {
     type: "input",
     name: "description",
-    message: "Provide a description of the project (Required)",
+    message: "Provide a description of the project.",
+  },
+  {
+   type: 'input',
+   name: 'screenShotURL',
+   message: "PLease provides the URL for a screenshot of your project"  
+
   },
   {
     type: "checkbox",
@@ -65,6 +71,14 @@ const readMeInfo = (readMeData) => {
       type: "input",
       name: "link",
       message: "Enter the Gihub link to you project (Required)",
+      validate: (linkInput) =>{
+      if (linkInput) {
+          return true;
+        } else {
+          console.log("Please enter your Github Link");
+          return false;
+        }
+      },
     },
   ])
 //   .then(readMeData => {
@@ -75,6 +89,11 @@ const readMeInfo = (readMeData) => {
 
 
 readMeInfo()
-     .then(readMeData => {
-       const readMe = readmeGenerator(readMeData)
-     });
+     .then((readMeData) => {
+       const readMe = readmeGenerator(readMeData);
+
+         fs.writeFile('./ReadME.md', readMe, err => {
+     if (err) throw new Error(err);
+      console.log('ReadMe created! Check out ReadMe.Md in this directory!')
+    });
+  });
