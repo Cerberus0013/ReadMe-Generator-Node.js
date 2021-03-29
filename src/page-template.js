@@ -9,7 +9,7 @@ return
   <h3 align="center">${title}</h3>
 
   <p align="center">
-  Timed Quiz Challenge
+  
         <br />
         <a href="https://github.com/${github}">Github</a><><strong>Explore the docs »</strong></a>
         <br />
@@ -30,7 +30,7 @@ return
 <ol>
 <li><a href="#about-the-project">About The Project</a></li>
 <li><a href="#project-links">Project Links</a></li>
-<li><a href="#contact">Contact</a></li>
+<li><a href="#contact">Questions</a></li>
 </ol>
 </details>
 
@@ -49,16 +49,16 @@ Features:
 <!-- PROJECT LINKS -->
 ## Project Links
 
-Hosted Link: [https://cerberus0013.github.io/timed-quiz/](https://cerberus0013.github.io/timed-quiz/)
-
 Repository Link: [https://github.com/Cerberus0013/timed-quiz](https://github.com/Cerberus0013/timed-quiz)
 
-<!-- CONTACT -->
+<!-- Questions -->
 ## Contact
 
-Name: ${name} ; Email: ${email} 
+Name: ${name} ; Email: ${email}
 
-`
+href="https://github.com/${github}
+
+`;
 }
 
 
