@@ -28,7 +28,7 @@ const readMeInfo = (readMeData) => {
     },
     {
       type: "imput",
-      name: "name",
+      name: "title",
       message: "What is the name of your project?",
     },
     {
@@ -99,9 +99,11 @@ const readMeInfo = (readMeData) => {
 
 readMeInfo()
      .then((readMeData) => {
+       console.log(readMeData)
        const readMe = readmeGenerator(readMeData);
 
-         fs.writeFile('./ReadME.md', readMe, err => {
+
+      fs.writeFile('./ReadME.md', readMe, err => {
      if (err) throw new Error(err);
       console.log('ReadMe created! Check out ReadMe.Md in this directory!')
     });
