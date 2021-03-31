@@ -1,26 +1,6 @@
-# jldfjhd;al;.AS;LA
+# Readme Generator
 
-<br />
-<p align="center">
-<a href="https://github.com/ADVDVSDV">Github</a><
-<img src="./assets/images/download.jpg"  alt="Logo" width="80" height="" >
-</a>
 
-<h3 align="center">ADVDVSDV</h3>
-
-<p align="center">
-  
-<br />
-<a href="https://github.com/ADVDVSDV">Github</a><><strong>Explore the docs »</strong></a>
-<br />
-<br />
-<a href="https://github.com/ADVDVSDV">Github</a><View Demo</a>
-        ·
-<a href="https://github.com/ADVDVSDV">Github</a><Report Bug</a>
-        ·
-<a href="https://github.com/ADVDVSDV">Github</a><Request Feature</a>
-</p>
-</p>
 
 
 
@@ -31,6 +11,7 @@
 <li><a href="#about-the-project">About The Project</a></li>
 <li><a href="#project-links">Project Links</a></li>
 <li><a href="#contact">Questions</a></li>
+1. [License](#license) 
 </ol>
 </details>
 
@@ -39,14 +20,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-SDVSDVSDV
+Readme Generator
 
-VDVSDVSDVSV
+N/A
 
 
 Features:
 
-
+Javascript,Node
 
 <!-- PROJECT LINKS -->
 ## Project Links
@@ -56,18 +37,20 @@ Features:
 <!-- Questions -->
 ## Questions
 
-Name: jlkdfklj;dfjklfdsa ; Email: ACKSDVKSV
+Name: Brian ; Email: b.breedlove@outlook.com
 
-DDCSDCDS
+https://github.com/Cerberus0013/portfolio-generator
 
-<h4 class="text-dark">&copy; 2021 by jlkdfklj;dfjklfdsa</h4>
+<h4 class="text-dark">&copy; 2021 by Brian</h4>
 
-##License
+## License
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)]
+  This Project is licesned under undefined
 
-##Badges
+![License: MIT License](https://img.shields.io/badge/License-MIT License-yellow.svg)
 
-SDCSDCSD
+## Badges
+
+N/A
 
 

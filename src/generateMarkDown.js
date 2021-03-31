@@ -29,7 +29,7 @@ return ``
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if(license !== none){
+  if(license !== 'none'){
   return `## License
 
   This Project is licesned under ${license}`
