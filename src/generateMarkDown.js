@@ -82,6 +82,8 @@ ${data.link}
 
 Name: ${data.name} 
 
+Github Profile Name: ${data.github}
+
 Email: ${data.email}
 
 ${data.link}

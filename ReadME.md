@@ -11,7 +11,7 @@
 <li><a href="#about-the-project">About The Project</a></li>
 <li><a href="#project-links">Project Links</a></li>
 <li><a href="#questions">Questions</a></li>
-1. [License](#license) 
+4. [License](#license) 
 </ol>
 </details>
 
@@ -20,27 +20,31 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Its a readme generator
+It is a Readme Generator based on terminal input from inquirer inqueries
 
-![Screen Shot 2021-03-30 at 6 44 05 PM](https://user-images.githubusercontent.com/76604281/113078458-ff040c80-9187-11eb-969b-221aa2dcd17f.png)
+![Screen Shot 2021-03-30 at 6 56 15 PM](https://user-images.githubusercontent.com/76604281/113079301-a5044680-9189-11eb-8f49-fe65c856826c.png)
 
 
 Features:
 
-Javascript,Node
+Javascript,Node 
 
 <!-- PROJECT LINKS -->
 ## Project Links
 
-https://github.com/Cerberus0013/ReadMe-Generator-Node.js/issues/new
+https://github.com/Cerberus0013/ReadMe-Generator-Node.js
 
 
 <!-- Questions -->
 ## Questions
 
-Name: Brian ; Email: b.breddlove@outlook.com
+Name: Brian 
 
-https://github.com/Cerberus0013/ReadMe-Generator-Node.js/issues/new
+Github Profile Name: Cerberus0013
+
+Email: b.breedlove@outlook.com
+
+https://github.com/Cerberus0013/ReadMe-Generator-Node.js
 
 <h4 class="text-dark">&copy; 2021 by Brian</h4>
 
@@ -52,6 +56,6 @@ https://github.com/Cerberus0013/ReadMe-Generator-Node.js/issues/new
 
 ## Badges
 
-I don't need badges
+I do not have any
 
 
