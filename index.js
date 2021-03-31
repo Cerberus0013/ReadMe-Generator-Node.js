@@ -57,12 +57,12 @@ const readMeInfo = (readMeData) => {
       message: "What did you build this project with? (check all that apply)",
       choices: [
         "Javascript",
-        "HTML",
-        "CSS",
-        "ES6",
-        "jQuery",
-        "Bootstrap",
-        "Node",
+        "HTML ",
+        "CSS ",
+        "ES6 ",
+        "jQuery ",
+        "Bootstrap ",
+        "Node ",
       ],
     },
     {

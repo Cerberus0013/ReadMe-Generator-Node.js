@@ -19,7 +19,7 @@ return ``
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
  if (license !== 'none'){
-  return `1. [License](#license) `
+  return `4. [License](#license) `
 } 
 return `` 
 
@@ -52,7 +52,7 @@ function generateMarkdown(data) {
 <ol>
 <li><a href="#about-the-project">About The Project</a></li>
 <li><a href="#project-links">Project Links</a></li>
-<li><a href="#contact">Questions</a></li>
+<li><a href="#questions">Questions</a></li>
 ${renderLicenseLink(data.license)}
 </ol>
 </details>
@@ -74,12 +74,15 @@ ${data.languages}
 <!-- PROJECT LINKS -->
 ## Project Links
 
+${data.link}
 
 
 <!-- Questions -->
 ## Questions
 
-Name: ${data.name} ; Email: ${data.email}
+Name: ${data.name} 
+
+Email: ${data.email}
 
 ${data.link}
 
